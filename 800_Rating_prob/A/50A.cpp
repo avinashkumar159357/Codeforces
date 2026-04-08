@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 #include<cmath>
 using namespace std;
-void solve(){
+void solve(){// this is a easy problem
     int m,n;
     cin>>m>>n;
     cout<<(m*n)/2;
