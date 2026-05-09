@@ -22,3 +22,14 @@ my CP skills..
 - Math & Number Theory
 - Strings
 - more will be added soon
+
+## Repository Structure
+
+Codeforces/
+│
+├── 800_Rated_problems/
+├── 900_Rated_problems/
+├── 1000_Rated_problems/
+├── Contest/--CF Rounds DIV2
+--CF Rounds DIV3
+--CF Rounds DIV4
