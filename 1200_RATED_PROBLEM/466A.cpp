@@ -14,6 +14,8 @@ void solve() {
     int y=n%m;
     int mixed_ticket=(x*b)+(y*a);
     int only_special_ticket=ceil((double)n/m)*b;
+    // only special ticket ccan also be written as 
+    // only_special_ticket=((n+m-1)/m)*b;
     
     cout<<min({direct_single_ticket,mixed_ticket,only_special_ticket});
 }
