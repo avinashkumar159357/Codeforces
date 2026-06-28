@@ -28,7 +28,25 @@ void solve(){
     
     cout<<b.size()-cnt;
 }
+/*void solve(){    // editorial approach//
+    int n; cin>>n;
+    ll d; cin>>d;
 
+    vector<ll>a(n),b;
+    
+    for (int i = 0; i < n; i++) cin>>a[i];
+        
+    int cnt=2; //first and last position are always valid (a[0] - d) and (a[n-1] + d)
+    for (int  i = 1; i < n; i++)
+    {
+        ll gap=a[i]-a[i-1];
+
+        if(gap>(2*d))cnt+=2;
+        else if(gap==(2*d))cnt++;
+    }
+    
+    cout<<cnt;
+}*/
 
 int main() {
     ios :: sync_with_stdio(0);
